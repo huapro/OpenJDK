@@ -1,0 +1,15 @@
+"/Applications/CLion 2.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug --with-target-bits=64 --enable-ccache "--with-boot-jdk-jvmargs=-Xlint:deprecation -Xlint:unchecked" --disable-zip-debug-info --with-freetype-include=/usr/local/Cellar/freetype/2.9/include/freetype2 --with-freetype-lib=/usr/local/Cellar/freetype/2.9/lib --with-debug-level=slowdebug -G "CodeBlocks - Unix Makefiles" /Users/yanglihua/Downloads/jdk8u
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    build/macosx-x86_64-normal-server-slowdebug/docs/jdk/api/attach/spec/com/sun/tools/attach/class-use/AgentInitializationException.html
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: jdk8u
+CMake Error: Cannot determine link language for target "jdk8u".
+-- Generating done
+-- Build files have been written to: /Users/yanglihua/Downloads/jdk8u/cmake-build-debug
